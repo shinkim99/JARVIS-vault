@@ -1,0 +1,1851 @@
+{
+  "nodes": [
+    {
+      "id": "cdp-working-board",
+      "label": "CDP-Working-Board",
+      "type": "program",
+      "status": "active",
+      "version": "Rev19",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "cdp-tracking",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "cycle-analysis-fullcell-op",
+      "label": "Cycle-Analysis-FullCell-OP",
+      "type": "program",
+      "status": "active",
+      "version": "Rev13",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "cycle-analysis",
+        "chart-rendering",
+        "csv-parsing",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Chart Engine",
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "cycle-analysis-halfcell",
+      "label": "Cycle-Analysis-HalfCell",
+      "type": "program",
+      "status": "active",
+      "version": "Rev12",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "cycle-analysis",
+        "chart-rendering",
+        "csv-parsing",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Chart Engine",
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "cycle-analysis-rate",
+      "label": "Cycle-Analysis-Rate",
+      "type": "program",
+      "status": "active",
+      "version": "Rev12",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "cycle-analysis",
+        "chart-rendering",
+        "csv-parsing",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Chart Engine",
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "percolation-all",
+      "label": "Percolation-ALL",
+      "type": "program",
+      "status": "active",
+      "version": "Rev13",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "percolation",
+        "chart-rendering",
+        "csv-parsing",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Chart Engine",
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "percolation-eis",
+      "label": "Percolation-EIS",
+      "type": "program",
+      "status": "active",
+      "version": "Rev07",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "percolation",
+        "eis-analysis",
+        "chart-rendering",
+        "csv-parsing",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Chart Engine",
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "prompt-orchestrator",
+      "label": "Prompt-Orchestrator",
+      "type": "program",
+      "status": "active",
+      "version": "Rev07",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "prompt-engineering",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "recipe-anode",
+      "label": "Recipe-Anode",
+      "type": "program",
+      "status": "active",
+      "version": "Rev08",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "recipe-mgmt",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "recipe-cathode",
+      "label": "Recipe-Cathode",
+      "type": "program",
+      "status": "active",
+      "version": "Rev04",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "recipe-mgmt",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "recipe-cnt-runsheet",
+      "label": "Recipe-CNT-Runsheet",
+      "type": "program",
+      "status": "active",
+      "version": "Rev23",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "recipe-mgmt",
+        "cnt-dispersion",
+        "data-import",
+        "file-export",
+        "dark-light-theme"
+      ],
+      "modules": [
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "jarvis-workbench",
+      "label": "JARVIS-Workbench",
+      "type": "program",
+      "status": "dev",
+      "version": "v0.7",
+      "language": "JSX",
+      "github": "",
+      "tags": [
+        "program",
+        "dev"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "nexus",
+      "label": "NEXUS",
+      "type": "program",
+      "status": "idea",
+      "version": "v0.0",
+      "language": "Python",
+      "github": "",
+      "tags": [
+        "program",
+        "idea"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "program-creator",
+      "label": "Program-Creator",
+      "type": "program",
+      "status": "idea",
+      "version": "v0.0",
+      "language": "Python",
+      "github": "",
+      "tags": [
+        "program",
+        "idea"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "cross-validator",
+      "label": "Cross-validator",
+      "type": "program",
+      "status": "active",
+      "version": "v3",
+      "language": "Python",
+      "github": "https://github.com/shinkim99/Cross-validator",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "cross-validation",
+        "pipeline",
+        "multi-llm-routing"
+      ],
+      "modules": []
+    },
+    {
+      "id": "data-intelligence-studio",
+      "label": "Data-Intelligence-Studio",
+      "type": "program",
+      "status": "active",
+      "version": "",
+      "language": "HTML",
+      "github": "https://github.com/shinkim99/Data-Intelligence-Studio",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "data-analysis",
+        "chart-rendering",
+        "data-import",
+        "csv-parsing",
+        "file-export",
+        "dark-light-theme",
+        "cycle-analysis"
+      ],
+      "modules": [
+        "Chart Engine",
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "grid-saas",
+      "label": "GRID-SaaS",
+      "type": "program",
+      "status": "active",
+      "version": "V16",
+      "language": "HTML",
+      "github": "https://github.com/shinkim99/GRID",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "gemini-scan",
+        "data-viz",
+        "image-analysis",
+        "chart-rendering",
+        "dark-light-theme",
+        "user-auth",
+        "api-proxy",
+        "file-export"
+      ],
+      "modules": [
+        "SaaS Dashboard",
+        "Gemini API Proxy",
+        "Chart Engine",
+        "Firebase Auth",
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "grid-server",
+      "label": "GRID-Server",
+      "type": "program",
+      "status": "active",
+      "version": "v1.0",
+      "language": "JavaScript",
+      "github": "",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "api-proxy"
+      ],
+      "modules": [
+        "Express-server",
+        "Gemini API Proxy"
+      ]
+    },
+    {
+      "id": "kii-workbench",
+      "label": "KII-workbench",
+      "type": "program",
+      "status": "archived",
+      "version": "v0.1",
+      "language": "HTML",
+      "github": "",
+      "tags": [
+        "program",
+        "archived"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "prism",
+      "label": "PRISM",
+      "type": "program",
+      "status": "dev",
+      "version": "v0.8",
+      "language": "Python",
+      "github": "https://github.com/shinkim99/PRISM",
+      "tags": [
+        "program",
+        "dev"
+      ],
+      "stack": [],
+      "skills": [
+        "strategy-engine",
+        "pipeline",
+        "pricing",
+        "multi-llm-routing",
+        "file-parsing",
+        "fact-check",
+        "file-export",
+        "scholar-search",
+        "cross-validation",
+        "api-proxy"
+      ],
+      "modules": [
+        "FastAPI backend",
+        "SSE streaming",
+        "Flowchart UI",
+        "Report finalizer",
+        "Dark/Light theme",
+        "Cross-Validation-Engine",
+        "Fact-Check-Engine",
+        "Multi-LLM-Router",
+        "History-Manager",
+        "File-Parser",
+        "PDF-Exporter"
+      ]
+    },
+    {
+      "id": "tech-intelligence",
+      "label": "tech-intelligence",
+      "type": "program",
+      "status": "active",
+      "version": "",
+      "language": "HTML",
+      "github": "https://github.com/shinkim99/tech-intelligence",
+      "tags": [
+        "program",
+        "active"
+      ],
+      "stack": [],
+      "skills": [
+        "tech-scanning",
+        "n8n-webhook",
+        "file-export",
+        "data-import"
+      ],
+      "modules": [
+        "n8n Connector",
+        "Dark/Light theme"
+      ]
+    },
+    {
+      "id": "wb-library",
+      "label": "wb-library",
+      "type": "program",
+      "status": "archived",
+      "version": "v0.1",
+      "language": "HTML",
+      "github": "https://github.com/shinkim99/wb-library",
+      "tags": [
+        "program",
+        "archived"
+      ],
+      "stack": [],
+      "skills": [
+        "data-import",
+        "file-export"
+      ],
+      "modules": [
+        "AES Encryption"
+      ]
+    },
+    {
+      "id": "api-proxy",
+      "label": "api-proxy",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active",
+        "shared-skill"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "cdp-tracking",
+      "label": "cdp-tracking",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "chart-rendering",
+      "label": "chart-rendering",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active",
+        "shared-skill"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "cnt-dispersion",
+      "label": "cnt-dispersion",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "cross-validation",
+      "label": "cross-validation",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "csv-parsing",
+      "label": "csv-parsing",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active",
+        "shared-skill"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "cycle-analysis",
+      "label": "cycle-analysis",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active",
+        "shared-skill"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "data-analysis",
+      "label": "data-analysis",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "data-import",
+      "label": "data-import",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active",
+        "shared-skill"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "data-viz",
+      "label": "data-viz",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active",
+        "shared-skill"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "eis-analysis",
+      "label": "eis-analysis",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "fact-check",
+      "label": "fact-check",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "file-export",
+      "label": "file-export",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active",
+        "shared-skill"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "file-parsing",
+      "label": "file-parsing",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "gemini-scan",
+      "label": "gemini-scan",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "image-analysis",
+      "label": "image-analysis",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "multi-llm-routing",
+      "label": "multi-llm-routing",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active",
+        "shared-skill"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "n8n-webhook",
+      "label": "n8n-webhook",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "percolation",
+      "label": "percolation",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "pipeline",
+      "label": "pipeline",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "pricing",
+      "label": "pricing",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "prompt-engineering",
+      "label": "prompt-engineering",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "recipe-mgmt",
+      "label": "recipe-mgmt",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "scholar-search",
+      "label": "scholar-search",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "strategy-engine",
+      "label": "strategy-engine",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "tech-scanning",
+      "label": "tech-scanning",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "user-auth",
+      "label": "user-auth",
+      "type": "skill",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "skill",
+        "active"
+      ],
+      "stack": [],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "aes-encryption",
+      "label": "AES-Encryption",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "JavaScript",
+        "Web Crypto API"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "chart-engine",
+      "label": "Chart-Engine",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "JavaScript",
+        "Chart.js",
+        "html2canvas"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "cross-validation-engine",
+      "label": "Cross-Validation-Engine",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Python",
+        "asyncio",
+        "FastAPI"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "dark-light-theme",
+      "label": "Dark-Light-theme",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "CSS",
+        "JavaScript"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "express-server",
+      "label": "Express-server",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Node.js",
+        "Express.js"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "fact-check-engine",
+      "label": "Fact-Check-Engine",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Python",
+        "asyncio",
+        "FastAPI"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "fastapi-backend",
+      "label": "FastAPI-backend",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Uvicorn"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "file-parser",
+      "label": "File-Parser",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Python",
+        "Gemini API",
+        "python-docx",
+        "python-pptx"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "firebase-auth",
+      "label": "Firebase-Auth",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "JavaScript",
+        "Firebase SDK",
+        "Firestore"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "flowchart-ui",
+      "label": "Flowchart-UI",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "JavaScript",
+        "HTML/CSS",
+        "SVG"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "gemini-api-proxy",
+      "label": "Gemini-API-Proxy",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Node.js",
+        "Express.js"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "history-manager",
+      "label": "History-Manager",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Python",
+        "JSON",
+        "FileSystem"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "multi-llm-router",
+      "label": "Multi-LLM-Router",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Python",
+        "httpx",
+        "FastAPI"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "n8n-connector",
+      "label": "n8n-Connector",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "JavaScript",
+        "n8n",
+        "Fetch API"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "pdf-exporter",
+      "label": "PDF-Exporter",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Python",
+        "fpdf2",
+        "reportlab"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "report-finalizer",
+      "label": "Report-finalizer",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Python",
+        "Gemini API / Claude API"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "saas-dashboard",
+      "label": "SaaS-Dashboard",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "skills": [],
+      "modules": []
+    },
+    {
+      "id": "sse-streaming",
+      "label": "SSE-streaming",
+      "type": "module",
+      "status": "",
+      "version": "",
+      "language": "",
+      "github": "",
+      "tags": [
+        "module",
+        "active"
+      ],
+      "stack": [
+        "Python",
+        "Server-Sent Events",
+        "FastAPI"
+      ],
+      "skills": [],
+      "modules": []
+    }
+  ],
+  "links": [
+    {
+      "source": "cdp-working-board",
+      "target": "cdp-tracking",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cdp-working-board",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cdp-working-board",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cdp-working-board",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-fullcell-op",
+      "target": "cycle-analysis",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-fullcell-op",
+      "target": "chart-rendering",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-fullcell-op",
+      "target": "csv-parsing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-fullcell-op",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-fullcell-op",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-fullcell-op",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-fullcell-op",
+      "target": "chart-engine",
+      "rel": "uses_module"
+    },
+    {
+      "source": "cycle-analysis-halfcell",
+      "target": "cycle-analysis",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-halfcell",
+      "target": "chart-rendering",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-halfcell",
+      "target": "csv-parsing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-halfcell",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-halfcell",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-halfcell",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-halfcell",
+      "target": "chart-engine",
+      "rel": "uses_module"
+    },
+    {
+      "source": "cycle-analysis-rate",
+      "target": "cycle-analysis",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-rate",
+      "target": "chart-rendering",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-rate",
+      "target": "csv-parsing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-rate",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-rate",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-rate",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cycle-analysis-rate",
+      "target": "chart-engine",
+      "rel": "uses_module"
+    },
+    {
+      "source": "percolation-all",
+      "target": "percolation",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-all",
+      "target": "chart-rendering",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-all",
+      "target": "csv-parsing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-all",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-all",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-all",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-all",
+      "target": "chart-engine",
+      "rel": "uses_module"
+    },
+    {
+      "source": "percolation-eis",
+      "target": "percolation",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-eis",
+      "target": "eis-analysis",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-eis",
+      "target": "chart-rendering",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-eis",
+      "target": "csv-parsing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-eis",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-eis",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-eis",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "percolation-eis",
+      "target": "chart-engine",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prompt-orchestrator",
+      "target": "prompt-engineering",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prompt-orchestrator",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prompt-orchestrator",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prompt-orchestrator",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-anode",
+      "target": "recipe-mgmt",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-anode",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-anode",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-anode",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-cathode",
+      "target": "recipe-mgmt",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-cathode",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-cathode",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-cathode",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-cnt-runsheet",
+      "target": "recipe-mgmt",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-cnt-runsheet",
+      "target": "cnt-dispersion",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-cnt-runsheet",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-cnt-runsheet",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "recipe-cnt-runsheet",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cross-validator",
+      "target": "cross-validation",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cross-validator",
+      "target": "pipeline",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "cross-validator",
+      "target": "multi-llm-routing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "data-intelligence-studio",
+      "target": "data-analysis",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "data-intelligence-studio",
+      "target": "chart-rendering",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "data-intelligence-studio",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "data-intelligence-studio",
+      "target": "csv-parsing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "data-intelligence-studio",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "data-intelligence-studio",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "data-intelligence-studio",
+      "target": "cycle-analysis",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "data-intelligence-studio",
+      "target": "chart-engine",
+      "rel": "uses_module"
+    },
+    {
+      "source": "grid-saas",
+      "target": "gemini-scan",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "grid-saas",
+      "target": "data-viz",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "grid-saas",
+      "target": "image-analysis",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "grid-saas",
+      "target": "chart-rendering",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "grid-saas",
+      "target": "dark-light-theme",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "grid-saas",
+      "target": "user-auth",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "grid-saas",
+      "target": "api-proxy",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "grid-saas",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "grid-saas",
+      "target": "saas-dashboard",
+      "rel": "uses_module"
+    },
+    {
+      "source": "grid-saas",
+      "target": "gemini-api-proxy",
+      "rel": "uses_module"
+    },
+    {
+      "source": "grid-saas",
+      "target": "chart-engine",
+      "rel": "uses_module"
+    },
+    {
+      "source": "grid-saas",
+      "target": "firebase-auth",
+      "rel": "uses_module"
+    },
+    {
+      "source": "grid-server",
+      "target": "api-proxy",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "grid-server",
+      "target": "express-server",
+      "rel": "uses_module"
+    },
+    {
+      "source": "grid-server",
+      "target": "gemini-api-proxy",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "strategy-engine",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "pipeline",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "pricing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "multi-llm-routing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "file-parsing",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "fact-check",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "scholar-search",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "cross-validation",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "api-proxy",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "prism",
+      "target": "fastapi-backend",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "sse-streaming",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "flowchart-ui",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "report-finalizer",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "cross-validation-engine",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "fact-check-engine",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "multi-llm-router",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "history-manager",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "file-parser",
+      "rel": "uses_module"
+    },
+    {
+      "source": "prism",
+      "target": "pdf-exporter",
+      "rel": "uses_module"
+    },
+    {
+      "source": "tech-intelligence",
+      "target": "tech-scanning",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "tech-intelligence",
+      "target": "n8n-webhook",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "tech-intelligence",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "tech-intelligence",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "tech-intelligence",
+      "target": "n8n-connector",
+      "rel": "uses_module"
+    },
+    {
+      "source": "wb-library",
+      "target": "data-import",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "wb-library",
+      "target": "file-export",
+      "rel": "uses_skill"
+    },
+    {
+      "source": "wb-library",
+      "target": "aes-encryption",
+      "rel": "uses_module"
+    }
+  ]
+}

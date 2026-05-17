@@ -2,3 +2,5 @@
 
 .obsidian/plugins/
 .claudian/
+__pycache__/
+*.pyc

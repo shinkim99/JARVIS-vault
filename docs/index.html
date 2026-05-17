@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS — JARVIS Knowledge Graph</title>
+  <script src="https://unpkg.com/3d-force-graph@1.73.4/dist/3d-force-graph.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0a0a0f;
+      color: #e2e8f0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    #header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 24px;
+      background: rgba(10, 10, 20, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(139, 92, 246, 0.3);
+    }
+
+    #header h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      background: linear-gradient(135deg, #a78bfa 0%, #60a5fa 50%, #34d399 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    #header .subtitle {
+      font-size: 0.75rem;
+      color: #64748b;
+      letter-spacing: 0.06em;
+    }
+
+    #legend {
+      display: flex;
+      gap: 20px;
+      margin-left: auto;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.78rem;
+      color: #94a3b8;
+    }
+
+    .legend-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    #stats {
+      font-size: 0.72rem;
+      color: #475569;
+      white-space: nowrap;
+    }
+
+    #graph-container {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #info-panel {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 20;
+      width: 300px;
+      background: rgba(15, 15, 28, 0.92);
+      border: 1px solid rgba(139, 92, 246, 0.35);
+      border-radius: 14px;
+      padding: 20px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+      transform: translateY(120%);
+      opacity: 0;
+      transition: transform 0.28s ease, opacity 0.28s ease;
+    }
+
+    #info-panel.visible {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    #info-panel .panel-type {
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    #info-panel .panel-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #f1f5f9;
+      margin-bottom: 14px;
+      line-height: 1.3;
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 5px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.8rem;
+    }
+
+    .info-row:last-child { border-bottom: none; }
+
+    .info-label { color: #64748b; }
+    .info-value { color: #cbd5e1; font-weight: 500; max-width: 180px; text-align: right; }
+
+    .status-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+
+    .badge-active  { background: rgba(52,211,153,0.18); color: #34d399; }
+    .badge-dev     { background: rgba(251,191,36,0.18); color: #fbbf24; }
+    .badge-idea    { background: rgba(148,163,184,0.18); color: #94a3b8; }
+    .badge-default { background: rgba(139,92,246,0.18); color: #a78bfa; }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 2px;
+    }
+
+    .tag {
+      background: rgba(96,165,250,0.12);
+      color: #60a5fa;
+      padding: 1px 7px;
+      border-radius: 12px;
+      font-size: 0.68rem;
+    }
+
+    #close-btn {
+      position: absolute;
+      top: 12px; right: 14px;
+      background: none;
+      border: none;
+      color: #475569;
+      cursor: pointer;
+      font-size: 1.1rem;
+      line-height: 1;
+      transition: color 0.15s;
+    }
+    #close-btn:hover { color: #e2e8f0; }
+
+    #hint {
+      position: fixed;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.72rem;
+      color: #334155;
+      pointer-events: none;
+      transition: opacity 0.5s;
+    }
+  </style>
+</head>
+<body>
+
+<div id="header">
+  <div>
+    <h1>NEXUS</h1>
+    <div class="subtitle">JARVIS Knowledge Graph</div>
+  </div>
+  <div id="legend">
+    <div class="legend-item">
+      <div class="legend-dot" style="background:#a78bfa;box-shadow:0 0 6px #a78bfa;"></div>
+      Program
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot" style="background:#34d399;box-shadow:0 0 6px #34d399;"></div>
+      Skill
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot" style="background:#60a5fa;box-shadow:0 0 6px #60a5fa;"></div>
+      Module
+    </div>
+  </div>
+  <div id="stats"></div>
+</div>
+
+<div id="graph-container"></div>
+
+<div id="info-panel">
+  <button id="close-btn" aria-label="닫기">✕</button>
+  <div id="panel-type" class="panel-type"></div>
+  <div id="panel-title" class="panel-title"></div>
+  <div id="panel-body"></div>
+</div>
+
+<div id="hint">노드를 클릭하면 상세 정보를 볼 수 있습니다</div>
+
+<script>
+const TYPE_COLOR = {
+  program: '#a78bfa',
+  skill:   '#34d399',
+  module:  '#60a5fa',
+};
+
+const TYPE_LABEL = {
+  program: 'PROGRAM',
+  skill:   'SKILL',
+  module:  'MODULE',
+};
+
+function statusBadge(status) {
+  if (!status) return '';
+  const cls = status === 'active' ? 'badge-active'
+            : status === 'dev'    ? 'badge-dev'
+            : status === 'idea'   ? 'badge-idea'
+            : 'badge-default';
+  return `<span class="status-badge ${cls}">${status}</span>`;
+}
+
+function row(label, value) {
+  if (!value) return '';
+  return `<div class="info-row"><span class="info-label">${label}</span><span class="info-value">${value}</span></div>`;
+}
+
+function showPanel(node) {
+  const panel = document.getElementById('info-panel');
+  document.getElementById('panel-type').textContent  = TYPE_LABEL[node.type] || node.type;
+  document.getElementById('panel-type').style.color  = TYPE_COLOR[node.type] || '#a78bfa';
+  document.getElementById('panel-title').textContent = node.label;
+
+  let html = '';
+  html += row('상태', statusBadge(node.status));
+  if (node.version)  html += row('버전', node.version);
+  if (node.language) html += row('언어', node.language);
+  if (node.github)   html += row('GitHub', `<a href="${node.github}" target="_blank" style="color:#60a5fa;text-decoration:none;">${node.github.replace('https://github.com/','')}</a>`);
+
+  const tags = (node.tags || []).filter(Boolean);
+  if (tags.length) {
+    html += `<div class="info-row"><span class="info-label">태그</span><div class="tag-list">${tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div></div>`;
+  }
+
+  const stack = (node.stack || []).filter(Boolean);
+  if (stack.length) {
+    html += `<div class="info-row"><span class="info-label">스택</span><div class="tag-list">${stack.map(s=>`<span class="tag" style="background:rgba(251,191,36,0.12);color:#fbbf24;">${s}</span>`).join('')}</div></div>`;
+  }
+
+  const skills = (node.skills || []).filter(Boolean);
+  if (skills.length) html += row('스킬 수', `${skills.length}개`);
+  const modules = (node.modules || []).filter(Boolean);
+  if (modules.length) html += row('모듈 수', `${modules.length}개`);
+
+  document.getElementById('panel-body').innerHTML = html;
+  panel.classList.add('visible');
+  document.getElementById('hint').style.opacity = '0';
+}
+
+function hidePanel() {
+  document.getElementById('info-panel').classList.remove('visible');
+}
+
+document.getElementById('close-btn').addEventListener('click', hidePanel);
+
+fetch('data.json')
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById('stats').textContent =
+      `${data.nodes.length} nodes · ${data.links.length} links`;
+
+    const Graph = ForceGraph3D()(document.getElementById('graph-container'))
+      .backgroundColor('#0a0a0f')
+      .graphData(data)
+      .nodeLabel(n => n.label)
+      .nodeColor(n => TYPE_COLOR[n.type] || '#888')
+      .nodeVal(n => n.type === 'program' ? 6 : n.type === 'skill' ? 3 : 2)
+      .nodeResolution(16)
+      .nodeOpacity(0.92)
+      .linkColor(() => 'rgba(148,163,184,0.18)')
+      .linkWidth(0.6)
+      .linkDirectionalParticles(1)
+      .linkDirectionalParticleSpeed(0.004)
+      .linkDirectionalParticleColor(l => {
+        const src = typeof l.source === 'object' ? l.source : {};
+        return TYPE_COLOR[src.type] || '#888';
+      })
+      .onNodeClick(node => {
+        showPanel(node);
+        Graph.centerAt(node.x, node.y, node.z, 800);
+        Graph.cameraPosition({ x: node.x, y: node.y, z: node.z + 120 }, { x: node.x, y: node.y, z: node.z }, 800);
+      })
+      .onBackgroundClick(hidePanel);
+
+    Graph.d3Force('charge').strength(-80);
+    Graph.d3Force('link').distance(l => {
+      const src = typeof l.source === 'object' ? l.source : {};
+      return src.type === 'program' ? 60 : 40;
+    });
+  })
+  .catch(err => {
+    document.body.innerHTML += `<div style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);color:#f87171;font-size:1rem;">데이터 로드 실패: ${err.message}</div>`;
+  });
+</script>
+</body>
+</html>
