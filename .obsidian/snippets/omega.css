@@ -1,0 +1,133 @@
+/* JARVIS Omega Theme — SF/Future */
+
+/* === CORE VARIABLES === */
+body {
+  --background-primary: #0a0e17;
+  --background-secondary: #0f1520;
+  --background-modifier-border: #1a2535;
+  --text-normal: #c8d0e0;
+  --text-muted: #5a6a8a;
+  --text-accent: #7c9cf0;
+  --interactive-accent: #6a8be0;
+  --graph-line: rgba(120, 160, 255, 0.15);
+  --graph-node: #7c9cf0;
+}
+
+/* === DATAVIEW TABLES === */
+.dataview.table-view-table,
+.dataview table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.88em;
+  border: 1px solid rgba(26, 37, 53, 0.8);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.dataview.table-view-table th,
+.dataview table th {
+  background: rgba(124, 156, 240, 0.08);
+  color: #7c9cf0;
+  border-bottom: 1px solid #1a2535;
+  padding: 8px 14px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.82em;
+}
+
+.dataview.table-view-table td,
+.dataview table td {
+  padding: 7px 14px;
+  border-bottom: 1px solid rgba(26, 37, 53, 0.5);
+  color: #c8d0e0;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+
+.dataview.table-view-table tbody tr:last-child td,
+.dataview table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.dataview.table-view-table tbody tr:hover td,
+.dataview table tbody tr:hover td {
+  background: rgba(124, 156, 240, 0.07);
+  color: #e4ecfc;
+}
+
+/* === METRIC / CALLOUT PANEL === */
+.callout {
+  background: rgba(10, 14, 23, 0.75) !important;
+  border-left: 3px solid rgba(124, 156, 240, 0.5) !important;
+  border-radius: 6px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(124, 156, 240, 0.08);
+}
+
+.callout-title-icon,
+.callout-title-inner {
+  color: #7c9cf0 !important;
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.callout-content {
+  font-size: 1.05em;
+  color: #c8d0e0;
+}
+
+/* === GRAPH VIEW === */
+.graph-view-outer {
+  background: #0a0e17 !important;
+}
+
+.graph-view canvas {
+  filter: drop-shadow(0 0 10px rgba(124, 156, 240, 0.12));
+}
+
+.theme-dark .graph-view.color-fill {
+  color: #7c9cf0;
+}
+
+.theme-dark .graph-view.color-fill-attachment {
+  color: #4a6ac0;
+}
+
+.theme-dark .graph-view.color-fill-tag {
+  color: #5ecfb0;
+}
+
+.theme-dark .graph-view.color-fill-unresolved {
+  color: #2a3550;
+}
+
+.theme-dark .graph-view.color-arrow {
+  color: rgba(120, 160, 255, 0.3);
+}
+
+.theme-dark .graph-view.color-line {
+  color: rgba(120, 160, 255, 0.12);
+}
+
+/* === TYPOGRAPHY === */
+h1 { color: #9db8f8; }
+h2 {
+  color: #7c9cf0;
+  border-bottom: 1px solid rgba(124, 156, 240, 0.15);
+  padding-bottom: 4px;
+}
+h3 { color: #6a88d4; }
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(26, 37, 53, 0.8);
+  margin: 16px 0;
+}
+
+.tag {
+  background: rgba(124, 156, 240, 0.1) !important;
+  color: #7c9cf0 !important;
+  border: 1px solid rgba(124, 156, 240, 0.2) !important;
+  border-radius: 4px;
+}

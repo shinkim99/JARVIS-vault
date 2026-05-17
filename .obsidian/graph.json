@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:00-Dashboard  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711693
+      }
+    },
+    {
+      "query": "path:01-Programs  ",
+      "color": {
+        "a": 1,
+        "rgb": 5303564
+      }
+    },
+    {
+      "query": "path:02-Skills  ",
+      "color": {
+        "a": 1,
+        "rgb": 5399264
+      }
+    },
+    {
+      "query": "path:03-Modules  ",
+      "color": {
+        "a": 1,
+        "rgb": 15066337
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.4,
+  "nodeSizeMultiplier": 1.35052083333333,
+  "lineSizeMultiplier": 1.91197916666667,
+  "collapse-forces": false,
+  "centerStrength": 0.395833333333333,
+  "repelStrength": 12.6041666666667,
+  "linkStrength": 0.348958333333333,
+  "linkDistance": 228,
+  "scale": 0.2588386562181581,
+  "close": true
+}
